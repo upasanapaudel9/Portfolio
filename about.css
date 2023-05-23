@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    body{
+    overflow:hidden;
+    background-image: url(clipart.png);
+    background-size: cover;
+    opacity: 100%;
+}
+.container{
+    width: 100%;
+    height: 13vh;
+    background-color:rgb(166, 187, 194);
+    
+    
+}
+.ski{
+    color: #d50e99;
+    font-size: 28px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+   
+
+}
+.logo{
+    width:30%;
+    min-height: vh;
+
+}
+.navItems{
+    margin-left: -210px;
+    display: flex;
+}
+.navItems li{
+    list-style: none;
+    margin: 0 30px 50px;
+}
+.navItems li a{
+    font-size:16px;
+    color: #f5ebeb;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Prompt', sans-serif;
+}
+.navItems li:hover a{
+    color: #87231a;
+}
+.links a{
+    font-size: 30px;
+    color:  #18fb3a;
+    margin: 25px 10px;
+}
+.j{
+    margin-top: 20px;
+    margin-left: -90px;
+    width: 20%;
+    height:auto;
+}
+.container2{
+    background-color: #ef6e88;
+    height: 100px;
+    background-image: url(clipart.png);
+    background-size: cover;
+    opacity: 100%;
+}
+.About{
+    position: absolute;
+    width:550px;
+    margin-top: 98px;
+    margin-left: 390px;
+    color:#53de68;
+    padding:20px;
+    box-shadow: 0 14px 28px rgba(85, 23, 218, 0.25), 0 10px 10px rgba(248, 244, 244, 0.22);
+    background-color: #e30de3;
+    font-family: 'Wix Madefor Display', sans-serif;
+    border-radius: 20px;
+}
+.About li{
+    margin:10px 0;
+    padding: 10px;
+}
+
+
+    @media(min-width:320px) and (max-width:480px){
+    
+        .container {
+                width: 100%;
+                height: 12vh;
+            }
+        .logo {
+            width: 94%;
+            min-height: vh;
+            margin-left: 96px;
+        }
+        .navItems li {
+            list-style: none;
+            margin: 2px 3px 16px;
+        }
+        .About {
+            width: 376px;
+            margin-left: 16px;}
+        .navItems li a {
+            font-size: 11px;
+        }
+        .container2 {
+            height: 223px;
+        }
+    }
